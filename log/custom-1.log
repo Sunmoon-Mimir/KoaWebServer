@@ -1,0 +1,84 @@
+2023-08-04 18:55:10: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:11: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:12: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:13: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:14: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:15: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:16: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:17: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:17: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:18: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:19: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:20: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:21: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:22: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:23: Process.env.NODE_ENV: undefined
+2023-08-04 18:55:24: Process.env.NODE_ENV: undefined
+2023-08-04 19:04:15: Process.env.NODE_ENV: pro
+2023-08-04 19:04:15: MYSQL_CONFIG: {
+  databaseName: 'demo',
+  databaseUserName: 'root',
+  databasePassword: '123456',
+  conf: {
+    host: '127.0.0.1',
+    port: 3306,
+    dialect: 'mysql',
+    user: 'root',
+    pool: { max: 5, min: 0, idle: 10000, acquire: 30000 }
+  }
+}
+2023-08-04 19:04:15: MYSQL_CONFIG: {
+  databaseName: 'demo',
+  databaseUserName: 'root',
+  databasePassword: '123456',
+  conf: {
+    host: '127.0.0.1',
+    port: 3306,
+    dialect: 'mysql',
+    user: 'root',
+    pool: { max: 5, min: 0, idle: 10000, acquire: 30000 }
+  }
+}
+2023-08-04 19:04:15: Executing (default): SELECT 1+1 AS result
+2023-08-04 19:04:15: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'demo'
+2023-08-04 19:04:15: 数据库连接成功！
+2023-08-04 19:04:15: Executing (default): SHOW INDEX FROM `user`
+2023-08-04 19:04:15: 表创建成功
+2023-08-04 19:18:18:   <-- POST /api/user/login
+2023-08-04 19:18:18: Executing (default): SELECT `id`, `username`, `password`, `gender`, `createdAt`, `updatedAt` FROM `user` AS `user` WHERE `user`.`username` = 'xmy@qq.com' AND `user`.`password` = '4e8e48ff16ef79c76e1b8f6bffe963f3';
+2023-08-04 19:18:18: POST /api/user/login - 17ms
+2023-08-04 19:18:18:   --> POST /api/user/login 200 27ms 86b
+2023-08-04 19:19:52: MYSQL_CONFIG: {
+  databaseName: 'demo',
+  databaseUserName: 'root',
+  databasePassword: '123456',
+  conf: {
+    host: '127.0.0.1',
+    port: 3306,
+    dialect: 'mysql',
+    user: 'root',
+    pool: { max: 5, min: 0, idle: 10000, acquire: 30000 }
+  }
+}
+2023-08-04 19:19:52: Executing (default): SELECT 1+1 AS result
+2023-08-04 19:19:52: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'demo'
+2023-08-04 19:19:52: 数据库连接成功！
+2023-08-04 19:19:52: Executing (default): SHOW INDEX FROM `user`
+2023-08-04 19:19:52: 表创建成功
+2023-08-04 20:27:08: MYSQL_CONFIG: {
+  databaseName: 'demo',
+  databaseUserName: 'root',
+  databasePassword: '123456',
+  conf: {
+    host: '127.0.0.1',
+    port: 3306,
+    dialect: 'mysql',
+    user: 'root',
+    pool: { max: 5, min: 0, idle: 10000, acquire: 30000 }
+  }
+}
+2023-08-04 20:27:08: Executing (default): SELECT 1+1 AS result
+2023-08-04 20:27:08: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'demo'
+2023-08-04 20:27:08: 数据库连接成功！
+2023-08-04 20:27:08: Executing (default): SHOW INDEX FROM `user`
+2023-08-04 20:27:08: 表创建成功

@@ -1,0 +1,15 @@
+{
+  "apps": {
+    "name": "app",
+    "script": "bin/www",
+    "watch": true,
+    "ignore_watch": [
+      "node_modules",
+      "log"
+    ],
+    "error_file": "log/error.log",
+    "out_file": "log/custom.log",
+    "log_date_format": "YYYY-MM-DD HH:mm:ss",
+    "instances": 2
+  }
+}
